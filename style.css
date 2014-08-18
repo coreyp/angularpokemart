@@ -1,0 +1,88 @@
+body{
+	background-color: #FAEBD7;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+img{
+	margin-left: 45%;
+	width: 10%;
+	margin-bottom: 2.5em;
+}
+
+#tabs{
+	margin-left: 40%;
+	margin-bottom: 2em;
+}
+
+div.panel h4{
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+div.panel p{
+	text-align: center;
+}
+
+div.panel blockquote{
+	text-align: center;
+}
+
+#newreview{
+	border: 1px solid red;
+	text-align: center;
+	width: 30%;
+	margin-left: 35%;
+}
+
+div.panel form{
+	text-align: center;
+}
+
+select.reviewstars{
+	margin-left: 46%;
+	margin-right: 46%;
+	width: 8%;
+	margin-bottom: 1em;
+	float: left;
+}
+
+#reviewbody{
+	margin-left: 40%;
+	width: 20%;
+	margin-right: 40%;
+	margin-bottom: 2em;
+	margin-top: 1.5em;
+}
+
+#reviewsubmit{
+	width: 6%;
+	margin-left: 47%;
+	margin-right: 47%;
+	margin-top: 2em;
+}
+.ng-invalid .ng-dirty{
+	border-color: #FA7878;
+}
+
+
+.ng-valid .ng-dirty{
+	border-color: #78FA78;
+}
+
+button{
+	width: 10%;
+	margin-left: 45%;
+}
+
+footer{
+	text-align: center;
+}
