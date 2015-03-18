@@ -5,17 +5,21 @@ body{
 h1{
 	text-align: center;
 	margin-bottom: 1em;
+	/* padding-top: 1em; */
+	font-family: 'Miltonian Tattoo', cursive;
+	font-size: 4em;
 }
 
 h3{
 	text-align: center;
 	margin-bottom: 1em;
+	font-family: 'Permanent Marker', cursive;
 }
 
 .subhead{
 	text-align: center;
 	margin-bottom: 1em;
-	margin-top: -1.5em;
+	margin-top: -2.5em;
 }
 
 img{
@@ -32,6 +36,7 @@ img{
 div.panel h4{
 	text-align: center;
 	padding-bottom: 1em;
+	font-family: 'Permanent Marker', cursive;
 }
 
 div.panel p{
@@ -72,6 +77,11 @@ select.reviewstars{
 .cite{
 	font-style: italic !important;
 }
+
+b.ng-binding{
+	color:tan;
+}
+
 #reviewsubmit{
 	width: 6%;
 	margin-left: 47%;
@@ -94,4 +104,44 @@ button{
 
 footer{
 	text-align: center;
+}
+
+footer h1{
+	text-align: center;
+	color:tan;
+	/* padding-top: 1em; */
+	font-family: 'Miltonian Tattoo', cursive;
+	font-size: 2em;
+}
+
+.ribbon {
+  background-color: #a00;
+  overflow: hidden;
+  white-space: nowrap;
+  /* top left corner */
+  position: absolute;
+  left: -50px;
+  top: 40px;
+  /* 45 deg ccw rotation */
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  /* shadow */
+  -webkit-box-shadow: 0 0 10px #888;
+     -moz-box-shadow: 0 0 10px #888;
+          box-shadow: 0 0 10px #888;
+}
+.ribbon a {
+  border: 1px solid #faa;
+  color: #fff;
+  display: block;
+  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 1px 0;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  text-shadow: 0 0 5px #444;
 }

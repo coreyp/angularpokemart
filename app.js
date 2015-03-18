@@ -84,7 +84,7 @@
                     author: "M.E., interior designer"
                 },
                 {
-                    stars: 1,
+                    stars: 2,
                     body: "Looks older than in the picture.",
                     author: "J.B., serial entrepreneur"
                 }
