@@ -23,69 +23,89 @@
     //item array
     var pokeitems = [
         {
-            name: 'Super Potion',
-            price: 19.99,
-            description:"A healing potion for your Pokemon",
-            specification: "Heals up to 50 HP",
+            title: 'At your service',
+            name: 'Samir',
+            price: 9.99,
+            description:"Experienced food taster",
+            specification:"Supertaster. Loyal and trustworthy. Putting himself through college (pre-med).",
             reviews: [
                 {
                     stars: 5,
-                    body: "This got me through the Rock Tunnel",
-                    author: "Ash Ketchum"
+                    body: "Samir saved my life. He is like a son to me now.",
+                    author: "M.L., business executive"
+                },
+                {
+                    stars: 4,
+                    body: "Excellent Heimlich technique!",
+                    author: "W.C., plastic surgeon"
+                }
+            ],
+            images:[{full:'img/Samir.jpg'}],
+            canPurchase: true
+
+        },
+        {
+            title: 'Hard-working hipster',
+            name: 'Ken',
+            price: 1999.99,
+            description:"Tenant farmer",
+            specification: "Musician/artist/designer/farmer. Specializes in winter crops and difficult soil. Organic methods only.",
+            reviews: [
+                {
+                    stars: 4,
+                    body: "Before Ken came along, I had a lot of underexploited acerage. Now, he and his family have an affordable means of subsistence, and I enjoy additional farm subsidies. It's a win-win!",
+                    author: "B.T., part-time Montana rancher"
                 },
                 {
                     stars: 3,
-                    body: "This potion sucks",
-                    author: "Gary Oak"
+                    body: "Good: Produce deliveries always on time. Bad: May have smoked inside the guest cabin.",
+                    author: "A.C., real estate investor"
                 }
             ],
-            images:[{full:'img/superpotion.png'}],
+            images:[{full:'img/Ken.jpg'}],
             canPurchase: true
         },
 
         {
-            name: 'Ultra Ball',
-            price: 99.99,
-            description:"A pokeball for catching high-level pokemon ",
-            specification: "Better than a great ball",
+            title: 'Always at hand',
+            name: 'Betina',
+            price: 500.00,
+            description:"Apprentice maid",
+            specification: "An affordable, reliable choice for all domestic duties and outdoor work. Part-time student (University of Phoenix).",
             reviews: [
                 {
-                    stars: 5,
-                    body: "Pika Pika!",
-                    author: "Pikachu"
+                    stars: 4,
+                    body: "Did everything we asked!",
+                    author: "L.T. and E.T., retirees"
+                },
+                {
+                    stars: 3,
+                    body: "Betina was perfectly charming, but I did notice she left some creases while ironing.",
+                    author: "M.E., interior designer"
                 },
                 {
                     stars: 1,
-                    body: "Useless for enslaving humans",
-                    author: "Mewtwo"
-                },
-                {
-                    stars: 2,
-                    body: "I still cannot catch that damn Suicine",
-                    author: "Eugene"
+                    body: "Looks older than in the picture.",
+                    author: "J.B., serial entrepreneur"
                 }
             ],
-            images:[{full:'img/ultraball.jpg'}],
+            images:[{full:'img/Betina.jpg'}],
             canPurchase: true
         },
         {
-            name: 'Old Rod',
+            title: '\xA1Con mucho gusto!',
+            name: 'Roberto',
             price: 9.99,
-            description:"An old fishing rod",
-            specification:"Can help you catch low-level water pokemon",
+            description:"Body man",
+            specification:"Long record of service for blue-chip executives, political candidates and some of the oldest, most respected families in his home country",
             reviews: [
                 {
-                    stars: 1,
-                    body: "Only good for catching Magikarps",
-                    author: "Red"
+                    stars: 3,
+                    body: "Despite the language barrier, Roberto anticipated my every need. Pretty soon, I forgot he was there!",
+                    author: "G.F., telecommunications lobbyist"
                 },
-                {
-                    stars: 2,
-                    body: "Not even a nibble from a Feebass",
-                    author: "Fishing Guru"
-                }
             ],
-            images:[{full:'img/oldrod.png'}],
+            images:[{full:'img/Roberto.jpg'}],
             canPurchase: true
 
         }
