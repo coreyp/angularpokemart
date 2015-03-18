@@ -23,11 +23,11 @@
     //item array
     var pokeitems = [
         {
-            title: 'At your service',
+            title: 'The iron stomach',
             name: 'Samir',
             price: 9.99,
             description:"Experienced food taster",
-            specification:"Supertaster. Loyal and trustworthy. Putting himself through college (pre-med).",
+            specification:"Supertaster. Can smell cyanide, thallium. Loyal and trustworthy. Putting himself through college (pre-med).",
             reviews: [
                 {
                     stars: 5,
@@ -49,7 +49,7 @@
             name: 'Ken',
             price: 1999.99,
             description:"Tenant farmer",
-            specification: "Musician/artist/designer/farmer. Specializes in winter crops and difficult soil. Organic methods only.",
+            specification: "Musician/artist/designer/organic farmer. Specializes in winter crops and difficult soil. Permaculture preferred, pesticides negotiable.",
             reviews: [
                 {
                     stars: 4,
@@ -67,11 +67,11 @@
         },
 
         {
-            title: 'Always at hand',
+            title: 'At your service',
             name: 'Betina',
             price: 500.00,
             description:"Apprentice maid",
-            specification: "An affordable, reliable choice for all domestic duties and outdoor work. Part-time student (University of Phoenix).",
+            specification: "An affordable, reliable choice for all domestic duties, including child-rearing and incubation, as well as outdoor work. Part-time student (University of Phoenix).",
             reviews: [
                 {
                     stars: 4,
