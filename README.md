@@ -1,4 +1,4 @@
-angularpokemart
+SRF.TODAY
 ===============
 
-A simple front-end model for a storefront written in Angular JS
+MVP for sharing economy site.
