@@ -40,7 +40,7 @@
                     author: "W.C., plastic surgeon"
                 }
             ],
-            images:[{full:'img/Samir.jpg'}],
+            images:[{full:'img/samir.jpg'}],
             canPurchase: true
 
         },
@@ -62,7 +62,7 @@
                     author: "A.C., real estate investor"
                 }
             ],
-            images:[{full:'img/Ken.jpg'}],
+            images:[{full:'img/ken.jpg'}],
             canPurchase: true
         },
 
@@ -89,7 +89,7 @@
                     author: "J.B., serial entrepreneur"
                 }
             ],
-            images:[{full:'img/Betina.jpg'}],
+            images:[{full:'img/betina.jpg'}],
             canPurchase: true
         },
         {
@@ -105,7 +105,7 @@
                     author: "G.F., telecommunications lobbyist"
                 },
             ],
-            images:[{full:'img/Roberto.jpg'}],
+            images:[{full:'img/roberto.jpg'}],
             canPurchase: true
 
         }
